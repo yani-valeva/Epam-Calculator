@@ -1,0 +1,77 @@
+.module, body .wrapper .all-added-nums-sum .result, body .wrapper .all-added-nums-sum .added-nums-container .current-added-elem {
+  color: #625F5F;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #C8C4C3;
+  min-height: 100vh;
+}
+body .wrapper {
+  display: flex;
+  border: 1px solid #C8C4C3;
+  border-radius: 10px;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-box-shadow: 6px 9px 5px -4px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 6px 9px 5px -4px rgba(0, 0, 0, 0.44);
+  box-shadow: 6px 9px 5px -4px rgba(0, 0, 0, 0.44);
+}
+body .wrapper h6 {
+  border-bottom: 1px solid #C8C4C3;
+  margin: 0;
+  padding: 15px;
+  text-transform: uppercase;
+}
+body .wrapper .content {
+  display: flex;
+}
+body .wrapper .all-added-nums-sum {
+  border-right: 1px solid #C8C4C3;
+  padding: 10px;
+}
+body .wrapper .all-added-nums-sum .added-nums-container {
+  height: 60vh;
+  overflow: auto;
+  width: 30vw;
+}
+body .wrapper .all-added-nums-sum .added-nums-container .current-added-elem {
+  display: flex;
+  justify-content: space-between;
+}
+body .wrapper .all-added-nums-sum .added-nums-container .current-added-elem .delete-btn {
+  cursor: pointer;
+}
+body .wrapper .all-added-nums-sum .added-nums-container .odd {
+  background-color: #CDC9C9;
+}
+body .wrapper .all-added-nums-sum .result {
+  margin: 0;
+  background-color: #CDC9C9;
+  font-weight: bold;
+}
+body .wrapper .new-num-part {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+body .wrapper .new-num-part * {
+  border-radius: 5px;
+  padding: 5px;
+}
+body .wrapper .new-num-part .new-num {
+  margin-bottom: 10px;
+}
+body .wrapper .new-num-part .add-btn {
+  background-color: #4D83E1;
+  border: 1px solid #1F52AB;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
