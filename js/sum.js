@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let isOdd = false;
 
     addBtn.addEventListener('click', () => {
-        if (newNum.value === '') {
+        if (!isValid(newNum.value)) {
             alert('Enter a number, please!');
             return;
         }
@@ -44,4 +44,12 @@ window.addEventListener('DOMContentLoaded', () => {
     newNum.addEventListener('click', () => {
         newNum.value = '';
     });
+
+    function isValid(input) {
+        if (!input.split('').every(e => e >= '0' && e <= '9') || input === '') {
+            return false;
+        }
+
+        return true;
+    }
 });
