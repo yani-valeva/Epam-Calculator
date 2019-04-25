@@ -5,11 +5,15 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 43px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #C8C4C3;
+  color: #6E6E6E;
   min-height: 100vh;
 }
 body .wrapper {
@@ -18,9 +22,9 @@ body .wrapper {
   border-radius: 10px;
   justify-content: center;
   flex-direction: column;
-  -webkit-box-shadow: 6px 9px 5px -4px rgba(0, 0, 0, 0.44);
-  -moz-box-shadow: 6px 9px 5px -4px rgba(0, 0, 0, 0.44);
-  box-shadow: 6px 9px 5px -4px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 body .wrapper h6 {
   border-bottom: 1px solid #C8C4C3;
@@ -48,11 +52,11 @@ body .wrapper .all-added-nums-sum .added-nums-container .current-added-elem .del
   cursor: pointer;
 }
 body .wrapper .all-added-nums-sum .added-nums-container .odd {
-  background-color: #CDC9C9;
+  background-color: #F7F7F7;
 }
 body .wrapper .all-added-nums-sum .result {
   margin: 0;
-  background-color: #CDC9C9;
+  background-color: #EEEEEE;
   font-weight: bold;
 }
 body .wrapper .new-num-part {
@@ -68,8 +72,8 @@ body .wrapper .new-num-part .new-num {
   margin-bottom: 10px;
 }
 body .wrapper .new-num-part .add-btn {
-  background-color: #4D83E1;
-  border: 1px solid #1F52AB;
+  background-color: #6FA6E6;
+  border: 1px solid #7194D1;
   color: #FFFFFF;
   cursor: pointer;
 }
